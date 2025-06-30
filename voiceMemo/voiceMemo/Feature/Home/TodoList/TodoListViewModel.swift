@@ -46,7 +46,7 @@ extension TodoListViewModel {
             if removeTodos.isEmpty {
                 isEditMode = false
             } else {
-                // Alert
+                setIsDisplayRemoveTodoAlert(true)
             }
         } else {
             isEditMode = true
