@@ -14,7 +14,7 @@ extension Date {
         return formatter.string(from: self)
     }
     
-    var formattedDate: String {
+    var formattedDay: String {
         let now = Date()
         let calendar = Calendar.current
         
