@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Todo {
+struct Todo: Hashable {
     var title: String
     var time: Date
     var day: Date
